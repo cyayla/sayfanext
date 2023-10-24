@@ -18,7 +18,7 @@ export default function Home() {
               target="_blank"
             >
               <div className="py-2 px-3 text-sm transition-colors duration-200 text-[#4A5562] bg-white border rounded-full shadow-md border-[#D1D5DA] hover:bg-[#F3F4F6] flex items-center">
-                <AiFillGithub className="text-xl mr-2" /> Star on GitHub
+                <AiFillGithub className="text-xl mr-2" /> Star on GitHub!
               </div>
             </Link>
           </div>
@@ -31,14 +31,17 @@ export default function Home() {
               Contentlayer. It is a great example of how to use Next.js 13 app
               folder and Contentlayer together.
             </p>
-            <Link
-              href="/posts"
-            >
+            <Link href="/posts">
               <div className="py-2 px-8 mt-14 text-lg w-fit transition-colors duration-200 text-white bg-slate-800 border rounded-full shadow-md border-[#D1D5DA] hover:bg-slate-700 flex items-center">
                 Go to Blogs <BsArrowRightShort className="text-3xl ml-1" />
               </div>
             </Link>
-              <Link href="https://arshadd.site/writing/nextjs-appdir-blog" className="mt-6 underline text-sm">How built this?</Link>
+            <Link
+              href="https://arshadd.site/writing/nextjs-appdir-blog"
+              className="mt-6 underline text-sm"
+            >
+              How built this?
+            </Link>
           </div>
         </div>
 
